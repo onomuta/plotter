@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   sodipodi:docname="gcode_template.svg"
+   id="svg5"
+   version="1.1"
+   viewBox="0 0 200 300"
+   height="300mm"
+   width="200mm"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="200mm"
+     inkscape:zoom="0.37668148"
+     inkscape:cx="1223.8457"
+     inkscape:cy="687.58357"
+     inkscape:window-width="1366"
+     inkscape:window-height="742"
+     inkscape:window-x="20"
+     inkscape:window-y="48"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g172" />
+  <defs
+     id="defs2">
+    <marker
+       id="CheckToolsAndOPMarker"
+       orient="auto"
+       refX="-4"
+       refY="-1.687441"
+       style="overflow:visible">
+      <path
+         d="m 4.588864,-1.687441 0.0,0.0 L 9.177728,0.0 c -0.73311,-0.996261 -0.728882,-2.359329 0.0,-3.374882"
+         style="fill:#000044;fill-rule:evenodd;stroke:none"
+         id="path188813" />
+    </marker>
+    <marker
+       id="DrawCurveMarker"
+       orient="auto"
+       refX="-4"
+       refY="-1.687441"
+       style="overflow:visible">
+      <path
+         d="m 4.588864,-1.687441 0.0,0.0 L 9.177728,0.0 c -0.73311,-0.996261 -0.728882,-2.359329 0.0,-3.374882"
+         style="fill:#000044;fill-rule:evenodd;stroke:none"
+         id="path188816" />
+    </marker>
+    <marker
+       id="DrawCurveMarker_r"
+       orient="auto"
+       refX="4"
+       refY="-1.687441"
+       style="overflow:visible">
+      <path
+         d="m -4.588864,-1.687441 0.0,0.0 L -9.177728,0.0 c 0.73311,-0.996261 0.728882,-2.359329 0.0,-3.374882"
+         style="fill:#000044;fill-rule:evenodd;stroke:none"
+         id="path188819" />
+    </marker>
+    <marker
+       id="InOutPathMarker"
+       orient="auto"
+       refX="-4"
+       refY="-1.687441"
+       style="overflow:visible">
+      <path
+         d="m 4.588864,-1.687441 0.0,0.0 L 9.177728,0.0 c -0.73311,-0.996261 -0.728882,-2.359329 0.0,-3.374882"
+         style="fill:#0072a7;fill-rule:evenodd;stroke:none"
+         id="path188822" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <g
+       gcodetools="Gcodetools tool definition"
+       transform="translate(253.8969,55.470817)"
+       id="g172">
+      <path
+         gcodetools="Gcodetools tool background"
+         style="fill-opacity:0.5;stroke:#444444"
+         d="M -20,-20 H 380 V 245 H -20 Z"
+         id="path86" />
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g96">
+        <text
+           x="0"
+           y="0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field name"
+           xml:space="preserve"
+           id="text90"><tspan
+             x="0"
+             y="0"
+             sodipodi:role="line"
+             id="tspan88">name</tspan></text>
+        <text
+           x="150"
+           y="0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field value"
+           xml:space="preserve"
+           id="text94"><tspan
+             x="150"
+             y="0"
+             sodipodi:role="line"
+             id="tspan92">Plasma cutter</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g106">
+        <text
+           x="0"
+           y="20"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field name"
+           xml:space="preserve"
+           id="text100"><tspan
+             x="0"
+             y="20"
+             sodipodi:role="line"
+             id="tspan98">id</tspan></text>
+        <text
+           x="150"
+           y="20"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field value"
+           xml:space="preserve"
+           id="text104"><tspan
+             x="150"
+             y="20"
+             sodipodi:role="line"
+             id="tspan102">Plasma cutter 0001</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g116">
+        <text
+           x="0"
+           y="35"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field name"
+           xml:space="preserve"
+           id="text110"><tspan
+             x="0"
+             y="35"
+             sodipodi:role="line"
+             id="tspan108">diameter</tspan></text>
+        <text
+           x="150"
+           y="35"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field value"
+           xml:space="preserve"
+           id="text114"><tspan
+             x="150"
+             y="35"
+             sodipodi:role="line"
+             id="tspan112">10</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g126">
+        <text
+           x="0"
+           y="50"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field name"
+           xml:space="preserve"
+           id="text120"><tspan
+             x="0"
+             y="50"
+             sodipodi:role="line"
+             id="tspan118">feed</tspan></text>
+        <text
+           x="150"
+           y="50"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field value"
+           xml:space="preserve"
+           id="text124"><tspan
+             x="150"
+             y="50"
+             sodipodi:role="line"
+             id="tspan122">1200</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g136">
+        <text
+           x="0"
+           y="65"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field name"
+           xml:space="preserve"
+           id="text130"><tspan
+             x="0"
+             y="65"
+             sodipodi:role="line"
+             id="tspan128">penetration feed</tspan></text>
+        <text
+           x="150"
+           y="65"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field value"
+           xml:space="preserve"
+           id="text134"><tspan
+             x="150"
+             y="65"
+             sodipodi:role="line"
+             id="tspan132">1200</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g158">
+        <text
+           x="0"
+           y="80"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field name"
+           xml:space="preserve"
+           id="text140"><tspan
+             x="0"
+             y="80"
+             sodipodi:role="line"
+             id="tspan138">gcode before path</tspan></text>
+        <text
+           x="150"
+           y="80"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field value"
+           xml:space="preserve"
+           id="text156"><tspan
+             x="150"
+             y="80"
+             sodipodi:role="line"
+             id="tspan148">M03 S40(turn on plasma)</tspan><tspan
+             x="150"
+             y="92.5"
+             sodipodi:role="line"
+             id="tspan154">G04 P0.1 (pause)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g170">
+        <text
+           x="0"
+           y="185"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field name"
+           xml:space="preserve"
+           id="text162"><tspan
+             x="0"
+             y="185"
+             sodipodi:role="line"
+             id="tspan160">gcode after path</tspan></text>
+        <text
+           x="150"
+           y="185"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+           gcodetools="Gcodetools tool definition field value"
+           xml:space="preserve"
+           id="text168"><tspan
+             x="150"
+             y="185"
+             sodipodi:role="line"
+             id="tspan164">M05 (turn off plasma)</tspan><tspan
+             x="150"
+             y="197.5"
+             sodipodi:role="line"
+             id="tspan166" /></text>
+      </g>
+      <g
+         id="g8012"
+         transform="matrix(0.50291692,0,0,0.50291751,-254.19865,144.22743)">
+        <g
+           id="g4519" />
+      </g>
+    </g>
+    <g
+       gcodetools="Gcodetools orientation group"
+       id="g48371">
+      <g
+         gcodetools="Gcodetools orientation point (2 points)"
+         id="g48361">
+        <path
+           style="stroke:none;fill:#000000;"
+           gcodetools="Gcodetools orientation point arrow"
+           d="m 0 300 l 2.9375 -6.34375 l 0.8125 1.90625 l 6.84375 -6.84375 l 0 0 l 0.6875 0.6875 l -6.84375 6.84375 l 1.90625 0.8125 z"
+           id="path48355" />
+        <text
+           x="10.0"
+           y="290.0"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools orientation point text"
+           xml:space="preserve"
+           id="text48359"><tspan
+             x="10.0"
+             y="290.0"
+             sodipodi:role="line"
+             id="tspan48357">(0.0; 0.0; 0.0)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools orientation point (2 points)"
+         id="g48369">
+        <path
+           style="stroke:none;fill:#000000;"
+           gcodetools="Gcodetools orientation point arrow"
+           d="m 100 300 l 2.9375 -6.34375 l 0.8125 1.90625 l 6.84375 -6.84375 l 0 0 l 0.6875 0.6875 l -6.84375 6.84375 l 1.90625 0.8125 z"
+           id="path48363" />
+        <text
+           x="110.0"
+           y="290.0"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools orientation point text"
+           xml:space="preserve"
+           id="text48367"><tspan
+             x="110.0"
+             y="290.0"
+             sodipodi:role="line"
+             id="tspan48365">(100.0; 0.0; -1.0)</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g188917" />
+    <g
+       gcodetools="Preview group"
+       id="g204921" />
+    <g
+       gcodetools="Preview group"
+       id="g204923" />
+    <g
+       gcodetools="Preview group"
+       id="g204925" />
+    <g
+       gcodetools="Preview group"
+       id="g204927" />
+    <g
+       gcodetools="Preview group"
+       id="g204929" />
+    <g
+       gcodetools="Preview group"
+       id="g204931" />
+    <g
+       gcodetools="Preview group"
+       id="g204933" />
+    <g
+       gcodetools="Preview group"
+       id="g204935" />
+    <g
+       gcodetools="Preview group"
+       id="g204937" />
+    <g
+       gcodetools="Preview group"
+       id="g204939" />
+    <g
+       gcodetools="Preview group"
+       id="g204941" />
+    <g
+       gcodetools="Preview group"
+       id="g204943" />
+    <g
+       gcodetools="Preview group"
+       id="g204945" />
+    <g
+       gcodetools="Preview group"
+       id="g204947" />
+    <g
+       gcodetools="Preview group"
+       id="g204949" />
+    <g
+       gcodetools="Preview group"
+       id="g204951" />
+    <g
+       gcodetools="Preview group"
+       id="g204953" />
+    <g
+       gcodetools="Preview group"
+       id="g204955" />
+    <g
+       gcodetools="Preview group"
+       id="g204957" />
+    <g
+       id="g249078" />
+    <g
+       gcodetools="Preview group"
+       id="g259882" />
+    <g
+       gcodetools="Preview group"
+       id="g259884" />
+    <g
+       gcodetools="Preview group"
+       id="g259886" />
+    <g
+       gcodetools="Preview group"
+       id="g259888" />
+    <g
+       gcodetools="Preview group"
+       id="g259890" />
+    <g
+       gcodetools="Preview group"
+       id="g259892" />
+    <g
+       gcodetools="Preview group"
+       id="g259894" />
+    <g
+       gcodetools="Preview group"
+       id="g259896" />
+    <g
+       gcodetools="Preview group"
+       id="g259898" />
+    <g
+       gcodetools="Preview group"
+       id="g259900" />
+    <g
+       gcodetools="Preview group"
+       id="g259902" />
+    <g
+       gcodetools="Preview group"
+       id="g259904" />
+    <g
+       gcodetools="Preview group"
+       id="g259906" />
+    <g
+       gcodetools="Preview group"
+       id="g259908" />
+    <g
+       gcodetools="Preview group"
+       id="g259910" />
+    <g
+       gcodetools="Preview group"
+       id="g259912" />
+    <g
+       gcodetools="Preview group"
+       id="g259914" />
+    <g
+       gcodetools="Preview group"
+       id="g259916" />
+    <g
+       gcodetools="Preview group"
+       id="g259918" />
+    <g
+       gcodetools="Preview group"
+       id="g259920" />
+    <g
+       gcodetools="Preview group"
+       id="g259922" />
+    <g
+       gcodetools="Preview group"
+       id="g259924" />
+    <g
+       gcodetools="Preview group"
+       id="g259926" />
+    <g
+       gcodetools="Preview group"
+       id="g259928" />
+    <g
+       gcodetools="Preview group"
+       id="g259930" />
+    <g
+       gcodetools="Preview group"
+       id="g259932" />
+    <g
+       gcodetools="Preview group"
+       id="g259934" />
+    <g
+       gcodetools="Preview group"
+       id="g259936" />
+    <g
+       gcodetools="Preview group"
+       id="g259938" />
+    <g
+       gcodetools="Preview group"
+       id="g259940" />
+    <g
+       gcodetools="Preview group"
+       id="g259942" />
+    <g
+       gcodetools="Preview group"
+       id="g259944" />
+    <g
+       gcodetools="Preview group"
+       id="g259946" />
+    <g
+       gcodetools="Preview group"
+       id="g259948" />
+    <g
+       gcodetools="Preview group"
+       id="g259950" />
+    <g
+       gcodetools="Preview group"
+       id="g259952" />
+    <g
+       gcodetools="Preview group"
+       id="g259954" />
+    <g
+       gcodetools="Preview group"
+       id="g259956" />
+    <g
+       gcodetools="Preview group"
+       id="g259958" />
+    <g
+       gcodetools="Preview group"
+       id="g259960" />
+    <g
+       gcodetools="Preview group"
+       id="g259962" />
+    <g
+       gcodetools="Preview group"
+       id="g259964" />
+    <g
+       gcodetools="Preview group"
+       id="g259966" />
+    <g
+       gcodetools="Preview group"
+       id="g259968" />
+    <g
+       gcodetools="Preview group"
+       id="g259970" />
+    <g
+       gcodetools="Preview group"
+       id="g259972" />
+    <g
+       gcodetools="Preview group"
+       id="g259974" />
+    <g
+       gcodetools="Preview group"
+       id="g259976" />
+    <g
+       gcodetools="Preview group"
+       id="g259978" />
+    <g
+       gcodetools="Preview group"
+       id="g259980" />
+    <g
+       gcodetools="Preview group"
+       id="g259982" />
+    <g
+       gcodetools="Preview group"
+       id="g259984" />
+    <g
+       gcodetools="Preview group"
+       id="g259986" />
+    <g
+       gcodetools="Preview group"
+       id="g259988" />
+    <g
+       gcodetools="Preview group"
+       id="g259990" />
+    <g
+       gcodetools="Preview group"
+       id="g259992" />
+    <g
+       gcodetools="Preview group"
+       id="g259994" />
+    <g
+       gcodetools="Preview group"
+       id="g259996" />
+    <g
+       gcodetools="Preview group"
+       id="g259998" />
+    <g
+       gcodetools="Preview group"
+       id="g260000" />
+    <g
+       gcodetools="Preview group"
+       id="g260002" />
+    <g
+       gcodetools="Preview group"
+       id="g260004" />
+    <g
+       gcodetools="Preview group"
+       id="g260006" />
+    <g
+       gcodetools="Preview group"
+       id="g260008" />
+    <g
+       gcodetools="Preview group"
+       id="g260010" />
+    <g
+       gcodetools="Preview group"
+       id="g260012" />
+    <g
+       gcodetools="Preview group"
+       id="g260014" />
+    <g
+       gcodetools="Preview group"
+       id="g260016" />
+    <g
+       gcodetools="Preview group"
+       id="g260018" />
+    <g
+       gcodetools="Preview group"
+       id="g260020" />
+    <g
+       gcodetools="Preview group"
+       id="g260022" />
+    <g
+       gcodetools="Preview group"
+       id="g260024" />
+    <g
+       gcodetools="Preview group"
+       id="g260026" />
+    <g
+       gcodetools="Preview group"
+       id="g260028" />
+    <g
+       gcodetools="Preview group"
+       id="g260030" />
+    <g
+       gcodetools="Preview group"
+       id="g260032" />
+    <g
+       gcodetools="Preview group"
+       id="g260034" />
+    <g
+       gcodetools="Preview group"
+       id="g260036" />
+    <g
+       gcodetools="Preview group"
+       id="g260038" />
+    <g
+       gcodetools="Preview group"
+       id="g260040" />
+    <g
+       gcodetools="Preview group"
+       id="g260042" />
+    <g
+       gcodetools="Preview group"
+       id="g260044" />
+    <g
+       gcodetools="Preview group"
+       id="g260046" />
+    <g
+       gcodetools="Preview group"
+       id="g260048" />
+    <g
+       gcodetools="Preview group"
+       id="g260050" />
+    <g
+       gcodetools="Preview group"
+       id="g260052" />
+    <g
+       gcodetools="Preview group"
+       id="g260054" />
+    <g
+       gcodetools="Preview group"
+       id="g260056" />
+    <g
+       gcodetools="Preview group"
+       id="g260058" />
+    <g
+       gcodetools="Preview group"
+       id="g260060" />
+    <g
+       gcodetools="Preview group"
+       id="g260062" />
+    <g
+       gcodetools="Preview group"
+       id="g260064" />
+    <g
+       gcodetools="Preview group"
+       id="g260066" />
+    <g
+       gcodetools="Preview group"
+       id="g260068" />
+    <g
+       gcodetools="Preview group"
+       id="g260070" />
+    <g
+       gcodetools="Preview group"
+       id="g260072" />
+    <g
+       gcodetools="Preview group"
+       id="g260074" />
+    <g
+       gcodetools="Preview group"
+       id="g260076" />
+    <g
+       gcodetools="Preview group"
+       id="g260078" />
+    <g
+       gcodetools="Preview group"
+       id="g260080" />
+    <g
+       gcodetools="Preview group"
+       id="g260082" />
+    <g
+       gcodetools="Preview group"
+       id="g260084" />
+    <g
+       gcodetools="Preview group"
+       id="g260086" />
+    <g
+       gcodetools="Preview group"
+       id="g260088" />
+    <g
+       gcodetools="Preview group"
+       id="g260090" />
+    <g
+       gcodetools="Preview group"
+       id="g260092" />
+    <g
+       gcodetools="Preview group"
+       id="g260094" />
+    <g
+       gcodetools="Preview group"
+       id="g260096" />
+    <g
+       gcodetools="Preview group"
+       id="g260098" />
+    <g
+       gcodetools="Preview group"
+       id="g260100" />
+    <g
+       gcodetools="Preview group"
+       id="g260102" />
+    <g
+       gcodetools="Preview group"
+       id="g260104" />
+    <g
+       gcodetools="Preview group"
+       id="g260106" />
+    <g
+       gcodetools="Preview group"
+       id="g260108" />
+    <g
+       gcodetools="Preview group"
+       id="g260110" />
+    <g
+       gcodetools="Preview group"
+       id="g260112" />
+    <g
+       gcodetools="Preview group"
+       id="g260114" />
+    <g
+       gcodetools="Preview group"
+       id="g260116" />
+    <g
+       gcodetools="Preview group"
+       id="g260118" />
+    <g
+       gcodetools="Preview group"
+       id="g260120" />
+    <g
+       gcodetools="Preview group"
+       id="g260122" />
+    <g
+       gcodetools="Preview group"
+       id="g260124" />
+    <g
+       gcodetools="Preview group"
+       id="g260126" />
+    <g
+       gcodetools="Preview group"
+       id="g260128" />
+    <g
+       gcodetools="Preview group"
+       id="g260130" />
+    <g
+       gcodetools="Preview group"
+       id="g260132" />
+    <g
+       gcodetools="Preview group"
+       id="g260134" />
+    <g
+       gcodetools="Preview group"
+       id="g260136" />
+    <g
+       gcodetools="Preview group"
+       id="g260138" />
+    <g
+       gcodetools="Preview group"
+       id="g260140" />
+    <g
+       gcodetools="Preview group"
+       id="g260142" />
+    <g
+       gcodetools="Preview group"
+       id="g260144" />
+    <g
+       gcodetools="Preview group"
+       id="g260146" />
+    <g
+       gcodetools="Preview group"
+       id="g260148" />
+    <g
+       gcodetools="Preview group"
+       id="g260150" />
+    <g
+       gcodetools="Preview group"
+       id="g260152" />
+    <g
+       gcodetools="Preview group"
+       id="g260154" />
+    <g
+       gcodetools="Preview group"
+       id="g260156" />
+    <g
+       gcodetools="Preview group"
+       id="g260158" />
+    <g
+       gcodetools="Preview group"
+       id="g260160" />
+    <g
+       gcodetools="Preview group"
+       id="g260162" />
+    <g
+       gcodetools="Preview group"
+       id="g260164" />
+    <g
+       gcodetools="Preview group"
+       id="g260166" />
+    <g
+       gcodetools="Preview group"
+       id="g260168" />
+    <g
+       gcodetools="Preview group"
+       id="g260170" />
+    <g
+       gcodetools="Preview group"
+       id="g260172" />
+    <g
+       gcodetools="Preview group"
+       id="g260174" />
+    <g
+       gcodetools="Preview group"
+       id="g260176" />
+    <g
+       gcodetools="Preview group"
+       id="g260178" />
+    <g
+       gcodetools="Preview group"
+       id="g260180" />
+    <g
+       gcodetools="Preview group"
+       id="g260182" />
+    <g
+       gcodetools="Preview group"
+       id="g260184" />
+    <g
+       gcodetools="Preview group"
+       id="g260186" />
+    <g
+       gcodetools="Preview group"
+       id="g260188" />
+    <g
+       gcodetools="Preview group"
+       id="g260190" />
+    <g
+       gcodetools="Preview group"
+       id="g260192" />
+    <g
+       gcodetools="Preview group"
+       id="g260194" />
+    <g
+       gcodetools="Preview group"
+       id="g260196" />
+    <g
+       gcodetools="Preview group"
+       id="g260198" />
+    <g
+       gcodetools="Preview group"
+       id="g260200" />
+    <g
+       gcodetools="Preview group"
+       id="g260202" />
+    <g
+       gcodetools="Preview group"
+       id="g260204" />
+    <g
+       gcodetools="Preview group"
+       id="g260206" />
+    <g
+       gcodetools="Preview group"
+       id="g260208" />
+    <g
+       gcodetools="Preview group"
+       id="g260210" />
+    <g
+       gcodetools="Preview group"
+       id="g260212" />
+    <g
+       gcodetools="Preview group"
+       id="g260214" />
+    <g
+       gcodetools="Preview group"
+       id="g260216" />
+    <g
+       gcodetools="Preview group"
+       id="g260218" />
+    <g
+       gcodetools="Preview group"
+       id="g260220" />
+    <g
+       gcodetools="Preview group"
+       id="g260222" />
+    <g
+       gcodetools="Preview group"
+       id="g260224" />
+    <g
+       gcodetools="Preview group"
+       id="g260226" />
+    <g
+       gcodetools="Preview group"
+       id="g260228" />
+    <g
+       gcodetools="Preview group"
+       id="g260230" />
+    <g
+       gcodetools="Preview group"
+       id="g260232" />
+    <g
+       gcodetools="Preview group"
+       id="g260234" />
+    <g
+       gcodetools="Preview group"
+       id="g260236" />
+    <g
+       gcodetools="Preview group"
+       id="g260238" />
+    <g
+       gcodetools="Preview group"
+       id="g260240" />
+    <g
+       gcodetools="Preview group"
+       id="g260242" />
+    <g
+       gcodetools="Preview group"
+       id="g260244" />
+    <g
+       gcodetools="Preview group"
+       id="g260246" />
+    <g
+       gcodetools="Preview group"
+       id="g260248" />
+    <g
+       gcodetools="Preview group"
+       id="g260250" />
+    <g
+       gcodetools="Preview group"
+       id="g260252" />
+    <g
+       gcodetools="Preview group"
+       id="g260254" />
+    <g
+       gcodetools="Preview group"
+       id="g260256" />
+    <g
+       gcodetools="Preview group"
+       id="g260258" />
+    <g
+       gcodetools="Preview group"
+       id="g260260" />
+    <g
+       gcodetools="Preview group"
+       id="g260262" />
+    <g
+       gcodetools="Preview group"
+       id="g260264" />
+    <g
+       gcodetools="Preview group"
+       id="g260266" />
+    <g
+       gcodetools="Preview group"
+       id="g260268" />
+    <g
+       gcodetools="Preview group"
+       id="g260270" />
+    <g
+       gcodetools="Preview group"
+       id="g260272" />
+    <g
+       gcodetools="Preview group"
+       id="g260274" />
+    <g
+       gcodetools="Preview group"
+       id="g260276" />
+    <g
+       gcodetools="Preview group"
+       id="g260278" />
+    <g
+       gcodetools="Preview group"
+       id="g260280" />
+    <g
+       gcodetools="Preview group"
+       id="g260282" />
+    <g
+       gcodetools="Preview group"
+       id="g260284" />
+    <g
+       gcodetools="Preview group"
+       id="g260286" />
+    <g
+       gcodetools="Preview group"
+       id="g260288" />
+    <g
+       gcodetools="Preview group"
+       id="g260290" />
+    <g
+       gcodetools="Preview group"
+       id="g260292" />
+    <g
+       gcodetools="Preview group"
+       id="g260294" />
+    <g
+       gcodetools="Preview group"
+       id="g260296" />
+    <g
+       gcodetools="Preview group"
+       id="g260298" />
+    <g
+       gcodetools="Preview group"
+       id="g260300" />
+    <g
+       gcodetools="Preview group"
+       id="g260302" />
+    <g
+       gcodetools="Preview group"
+       id="g260304" />
+    <g
+       gcodetools="Preview group"
+       id="g260306" />
+    <g
+       gcodetools="Preview group"
+       id="g260308" />
+    <g
+       gcodetools="Preview group"
+       id="g260310" />
+  </g>
+  <g
+     id="g10519" />
+  <g
+     id="g13866" />
+  <g
+     id="g16415" />
+  <g
+     id="g18948" />
+  <g
+     id="g21483" />
+  <g
+     id="g24020" />
+  <g
+     id="g26559" />
+  <g
+     id="g29100" />
+  <g
+     id="g32839" />
+  <g
+     id="g39075" />
+  <g
+     id="g42444" />
+  <g
+     id="g44997" />
+  <g
+     id="g47811" />
+  <g
+     id="g48052" />
+  <g
+     id="g48577" />
+  <g
+     id="g55377" />
+</svg>

@@ -39,7 +39,6 @@ for (let ix = 0; ix < 20; ix++) {
 
       quad(random(8), 0, 8, random(8), random(8), 8, 0, random(8))
 
-
     }
     endShape()
     pop()
