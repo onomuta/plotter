@@ -47,6 +47,7 @@ $132 = 80.000 (z max travel, mm)
 ## blender
 ### Freestyle設定
 https://twitter.com/hamko1114/status/1245597357661511680
+https://stocker.jp/diary/blender-svg-animation/
 ## InkScape
 
 ## Tools
