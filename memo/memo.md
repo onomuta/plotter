@@ -45,7 +45,8 @@ $132 = 80.000 (z max travel, mm)
 ## p5.js
 
 ## blender
-
+### Freestyle設定
+https://twitter.com/hamko1114/status/1245597357661511680
 ## InkScape
 
 ## Tools
