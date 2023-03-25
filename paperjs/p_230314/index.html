@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Line Testing</title>
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <script type="text/javascript" src="../js/paper-full.js"></script>
+    <script type="text/javascript" src="../js/simplex-noise.js"></script>
+    <script type="text/paperscript" canvas="canvas">
+        var simplex = new SimplexNoise()
+        var x = simplex.noise3D(1,2,3)
+        
+        
+
+        for(var j = 0; j<30; j++){
+            var path = new Path();
+            path.strokeColor = 'black';
+            for(var i = 0; i<100; i++){
+                x = (simplex.noise3D(i/22.345,j/11,311)+1)/2*40 + j*8
+                path.add(new Point(x, i*4));
+            }
+            <!-- path.simplify(100); -->
+        }
+        <!-- path.smooth({ type: 'continuous' }); -->
+  
+
+        
+        <!-- sキーで保存 -->
+        function onKeyDown(event) {
+            if (event.key === "s") {
+            downloadAsSVG();
+            }
+        }
+        
+        function downloadAsSVG(fileName) {
+            // use default name if not provided
+            fileName = fileName || "output.svg";
+        
+            // create a data url of the file
+            var svgData = project.exportSVG({ asString: true });
+            var url = "data:image/svg+xml;utf8," + encodeURIComponent(svgData);
+        
+            // create a link to the data, and "click" it
+            var link = document.createElement("a");
+            link.download = fileName;
+            link.href = url;
+            link.click();
+        }
+        
+    </script>
+</head>
+<body>
+    <canvas id="canvas" width="500" height="500"></canvas>
+</body>
+</html>
